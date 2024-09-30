@@ -20,13 +20,14 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 2, duration: 0.4, ease: 'easeInOut' },
           }}
-          className="absolute h-[298px] w-[298px] xl:h-[498px] xl:w-[498px]"
+          className="absolute h-[298px] w-[298px] xl:h-[498px] xl:w-[498px] "
         >
           <Image
-            src="/static/images/william.png"
+            src="/static/images/william_crop.png"
             priority
             quality={100}
             fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             alt=""
             className="rounded-full bg-slate-950 object-contain"
             style={{ zIndex: '-1' }}
