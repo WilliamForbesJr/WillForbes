@@ -18,7 +18,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="mr-3">{/* <Logo /> */}</div>
           {typeof siteMetadata.headerTitle === 'string' ? (
-            <div className="hidden h-6 bg-gradient-to-r from-teal-100 to-gray-100 bg-clip-text text-2xl font-semibold text-transparent sm:block">
+            <div className="hidden h-6 bg-clip-text text-2xl font-semibold sm:block">
               {siteMetadata.headerTitle}
             </div>
           ) : (
@@ -35,7 +35,8 @@ const Header = () => {
               <Link
                 key={link.title}
                 href={link.href}
-                className="relative block font-medium text-gray-900 hover:text-primary-500 hover:before:absolute hover:before:-left-3  hover:before:content-['<'] hover:after:absolute hover:after:-right-5 hover:after:tracking-wide hover:after:content-['/>'] dark:text-gray-100 dark:hover:text-primary-400"
+                className="relative block font-medium text-gray-900 hover:text-primary-500 hover:before:absolute hover:before:-left-3  
+                hover:before:content-['<'] hover:after:absolute hover:after:-right-5 hover:after:tracking-wide hover:after:content-['/>'] dark:text-gray-100 dark:hover:text-primary-400"
               >
                 {link.title}
               </Link>

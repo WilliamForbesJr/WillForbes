@@ -28,8 +28,8 @@ const Photo = () => {
             quality={100}
             fill
             alt=""
-            className="object-contain"
-            style={{ clipPath: 'circle(49.5%)' }}
+            className="rounded-full bg-slate-950 object-contain"
+            style={{ zIndex: '-1' }}
           />
         </div>
         <svg
@@ -38,11 +38,11 @@ const Photo = () => {
           viewBox="0 0 506 506"
           xmlns="http://www.w3.org/2000/svg"
         >
-          {/* <circle
-            cx="254"
-            cy="253"
+          <circle
+            cx="250"
+            cy="250"
             r="250"
-            stroke="#00ff99"
+            stroke="#1e293b"
             strokeWidth="4"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -56,7 +56,7 @@ const Photo = () => {
               repeat: Infinity,
               repeatType: 'reverse',
             }}
-          /> */}
+          />
         </svg>
       </div>
     </div>

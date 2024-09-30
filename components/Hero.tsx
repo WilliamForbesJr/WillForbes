@@ -10,7 +10,7 @@ const Hero = () => {
             <span className="text-xl">Senior Software Engineer</span>
             <h1 className="h1 mb-6 text-7xl font-semibold leading-[1.1]">
               Hello I&apos;m <br />
-              <span className="text-accent inline-block bg-gradient-to-r from-teal-300 to-teal-400 bg-clip-text text-transparent">
+              <span className="text-accent inline-block bg-gradient-to-r from-teal-200 to-teal-400 bg-clip-text text-transparent">
                 Will Forbes
               </span>
             </h1>
